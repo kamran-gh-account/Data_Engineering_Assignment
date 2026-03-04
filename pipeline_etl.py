@@ -1,12 +1,10 @@
 from __future__ import annotations
-
 import argparse
 import json
 import sqlite3
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterable
-
 import requests
 import urllib3
 from zoneinfo import ZoneInfo
